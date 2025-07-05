@@ -16,7 +16,7 @@ A Model Context Protocol (MCP) compatible server that provides weather informati
 
 ### ✅ Step 1: Clone and Install
 ```bash
-git clone https://github.com/your-username/weather-mcp-server.git
+git clone https://github.com/codewith1984/weather-mcp-server-typescript.git
 cd weather-mcp-server
 npm install
 ```
