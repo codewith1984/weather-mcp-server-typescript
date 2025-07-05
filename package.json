@@ -1,0 +1,24 @@
+{
+    "name": "weather-mcp-server-demo",
+    "version": "1.0.0",
+    "description": "MCP weather tool using OLLAMA LLM",
+    "main": "main.ts",
+    "type": "module",
+"scripts": {
+  "start": "tsx main.ts",
+  "dev": "tsx --watch main.ts",
+  "diagnose": "tsx diagnose.ts"
+},
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.15.0",
+        "dotenv": "^16.4.5",
+        "zod": "^3.25.71"
+    },
+    "devDependencies": {
+        "@types/node": "^24.0.10",
+        "tsx": "^3.12.7"
+    }
+}
