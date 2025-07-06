@@ -27,10 +27,9 @@ npm install
 # Copy environment template
 cp .env.example .env
 ```
-####Edit the .env file to contain:
+###Edit the .env file to contain:
 OLLAMA_API_URL=http://localhost:11434/api/generate
 OLLAMA_MODEL=llama3
-
 
 ### 🤖 Step 3: Install and Setup Ollama
 ```bash
@@ -198,6 +197,7 @@ top -p $(pgrep ollama)
 ```
 
 ### 📁 Project Structure
+```text
 weather-mcp-server/
 ├── .env                # Environment configuration
 ├── .env.example       # Environment template
@@ -208,6 +208,7 @@ weather-mcp-server/
 ├── package.json       # Dependencies and scripts
 ├── tsconfig.json      # TypeScript configuration
 └── README.md          # This file
+```
 
 ## ✅ Success Checklist
 Complete this checklist to ensure everything is working:
